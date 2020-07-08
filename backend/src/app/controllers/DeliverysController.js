@@ -16,6 +16,11 @@ class DeliverysController {
             attributes: ['name', 'cidade', 'estado', 'numero', 'cep', 'rua'],
           },
           {
+            model: File,
+            as: 'FileS',
+            attributes: ['path'],
+          },
+          {
             model: Deliverymans,
             as: 'Deliverymans',
             attributes: ['name'],
@@ -48,6 +53,11 @@ class DeliverysController {
             },
           },
           {
+            model: File,
+            as: 'FileS',
+            attributes: ['path'],
+          },
+          {
             model: Deliverymans,
             as: 'Deliverymans',
             attributes: ['name'],
@@ -70,6 +80,11 @@ class DeliverysController {
           model: Recipients,
           as: 'Recipients',
           attributes: ['name', 'cidade', 'estado', 'numero', 'cep', 'rua'],
+        },
+        {
+          model: File,
+          as: 'FileS',
+          attributes: ['path'],
         },
         {
           model: Deliverymans,
@@ -131,6 +146,11 @@ class DeliverysController {
           model: Recipients,
           as: 'Recipients',
           attributes: ['name', 'cidade', 'estado', 'numero', 'cep', 'rua'],
+        },
+        {
+          model: File,
+          as: 'FileS',
+          attributes: ['path'],
         },
         {
           model: Deliverymans,

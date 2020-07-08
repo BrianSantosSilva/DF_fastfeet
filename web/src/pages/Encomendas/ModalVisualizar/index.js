@@ -60,14 +60,18 @@ export default function ModalVisualizar({ visible, encomenda }) {
                 </span>
               )}
             </div>
-            <div>
-              <span>
-                <b>Assinatura do destinatário</b>
-              </span>
-              <span className="imgbox">
-                <img src={Assinatura} alt="Assinatura" />
-              </span>
-            </div>
+            {encomenda.FileS ? (
+              <div>
+                <span>
+                  <b>Assinatura do destinatário</b>
+                </span>
+                <span className="imgbox">
+                  <img src={encomenda.FileS.path} alt="Assinatura" />
+                </span>
+              </div>
+            ) : (
+              <span></span>
+            )}
           </FlexDiv>
         </div>
       </div>
