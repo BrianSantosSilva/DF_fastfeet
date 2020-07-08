@@ -1,6 +1,6 @@
 # FastFeet
 
-Projeto realizado para centificação da stack React pela Rocketseat.
+Projeto realizado para centificação pela Rocketseat.
 
 Todo o Projeto foi divivido em 3 pastas.
 
