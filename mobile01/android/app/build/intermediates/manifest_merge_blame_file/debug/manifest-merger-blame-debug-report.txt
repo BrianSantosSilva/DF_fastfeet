@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobile01"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:5:1-61
+12-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:5:18-58
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:6:1-66
+13-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:6:18-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:7:3-78
+14-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:7:20-75
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:8:3-79
+15-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:8:20-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:4:5-67
+16-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:4:22-64
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.33.1] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\ca738b74f83dc0f6aad88d542d044500\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.33.1] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\ca738b74f83dc0f6aad88d542d044500\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+18
+19    <uses-feature
+19-->[:react-native-camera] C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+20        android:name="android.hardware.camera"
+20-->[:react-native-camera] C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+21        android:required="false" />
+21-->[:react-native-camera] C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+22    <uses-feature
+22-->[:react-native-camera] C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+23        android:name="android.hardware.camera.autofocus"
+23-->[:react-native-camera] C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+24        android:required="false" />
+24-->[:react-native-camera] C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+25
+26    <application
+26-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:10:5-29:19
+27        android:name="com.mobile01.MainApplication"
+27-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:11:7-38
+28        android:allowBackup="false"
+28-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:15:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\4f509a65121478d6153615d7ef5b7c5f\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:13:7-41
+32        android:label="@string/app_name"
+32-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:12:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:14:7-52
+34        android:theme="@style/AppTheme"
+34-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:16:7-38
+35        android:usesCleartextTraffic="true" >
+35-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\debug\AndroidManifest.xml:11:18-53
+36        <activity
+36-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:17:7-27:18
+37            android:name="com.mobile01.MainActivity"
+37-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:18:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:20:9-86
+39            android:label="@string/app_name"
+39-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:19:9-41
+40            android:launchMode="singleTask"
+40-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:21:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:22:9-51
+42            <intent-filter>
+42-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:23:9-26:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:24:13-65
+43-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:24:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:25:13-73
+45-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:25:23-70
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+48-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:28:7-84
+48-->C:\Projetos\React\DesafioFinal\Fastfeet\mobile01\android\app\src\main\AndroidManifest.xml:28:17-81
+49        <activity
+49-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\bc49a6c2121ed639ca5246999f0eb7d6\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+50-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\bc49a6c2121ed639ca5246999f0eb7d6\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\bc49a6c2121ed639ca5246999f0eb7d6\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\bc49a6c2121ed639ca5246999f0eb7d6\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\817d1829779c6def71b9870febe1a508\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\817d1829779c6def71b9870febe1a508\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\brian\.gradle\caches\transforms-2\files-2.1\817d1829779c6def71b9870febe1a508\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+57    </application>
+58
+59</manifest>
