@@ -11,14 +11,14 @@ Backend<br>
 ## Backend
 
 
-Foi incluido um xml exportado do insomnia com requisição a todas as rotas e mais diversas operações utilizadas durante o desafio.
+Foi incluído um xml exportado do insomnia com requisição a todas as rotas e mais diversas operações utilizadas durante o desafio.
 
-É necessário criar um arquivo .env com as variaveis referente a maquina de quem estiver usando.(Existe um .env.example com as variaveis necessárias).
-Apesar de haver algumas a mais só é necessario as de Auth,Database e Mail as demais não são usadas nesse projeto.
+É necessário criar um arquivo .env com as variáveis referente a maquina de quem estiver usando.(Existe um .env.example com as variáveis necessárias).
+Apesar de haver algumas a mais só é necessário as de Auth,Database e Mail as demais não são usadas nesse projeto.
 
 Durante todo o desafio foi utilizado um o banco relacional postgresql no docker, a criação de um banco de dados tem que ser realizada de forma manual, no demais existem migrations e seeds na pasta backend/src/database.
 
-Após a criação do banco e a certificação que o mesmo está com as variaveis corretas no .env é necessário rodar os comandos.
+Após a criação do banco e a certificação que o mesmo está com as variáveis corretas no .env é necessário rodar os comandos.
 yarn sequelize db:migrate
 e
 yarn sequelize db:seed:all
@@ -28,7 +28,7 @@ Além disso não esquecer de rodar um yarn, uma vez que não subimos a pasta nod
 
 ## Web
 
-Necessário atualizar variavel que aponta para a API em web/src/services/api.
+Necessário atualizar variável que aponta para a API em web/src/services/api.
 
 Além disso não esquecer de rodar um yarn, uma vez que não subimos a pasta node_modules.
 
@@ -36,7 +36,7 @@ Além disso não esquecer de rodar um yarn, uma vez que não subimos a pasta nod
 
 Atenção.: O aplicativo foi realizado utilizando em conta apenas o Android.
 
-Necessário atualizar variavel que aponta para a API em mobile01/src/services/api.
+Necessário atualizar variável que aponta para a API em mobile01/src/services/api.
 
 Além disso não esquecer de rodar um yarn, uma vez que não subimos a pasta node_modules.
 
